@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "sns-flaming-kakomon2": {
+    "sns-flaming-kakomon": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "sns-flaming-kakomon2:build:production"
+              "buildTarget": "sns-flaming-kakomon:build:production"
             },
             "development": {
-              "buildTarget": "sns-flaming-kakomon2:build:development"
+              "buildTarget": "sns-flaming-kakomon:build:development"
             }
           },
           "defaultConfiguration": "development"

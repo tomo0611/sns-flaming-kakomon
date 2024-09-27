@@ -9,5 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'sns-flaming-kakomon2';
+  title = 'sns-flaming-kakomon';
 }

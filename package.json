@@ -1,5 +1,5 @@
 {
-  "name": "sns-flaming-kakomon2",
+  "name": "sns-flaming-kakomon",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build && npm run process",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:sns-flaming-kakomon2": "node dist/sns-flaming-kakomon2/server/server.mjs",
+    "serve:ssr:sns-flaming-kakomon": "node dist/sns-flaming-kakomon/server/server.mjs",
     "process": "node ./tools/copy-files.mjs && node ./tools/alter-polyfills.mjs",
     "deploy": "npm run build && wrangler pages deploy dist/cloudflare"
   },
